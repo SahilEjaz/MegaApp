@@ -65,7 +65,9 @@ function Post() {
             </h1>
            </div>
            <div className='Browser-css'>
-            {parse(post.content)}
+            {parse
+            (post.content)
+            }
            </div>
         </Container>
     </div>

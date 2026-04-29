@@ -1,8 +1,8 @@
 import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
 import Container from "./container/container"
-import logo from "./Logo";
-import logoutbtn from "./Header/logoutbtn";
+import Logo from "./Logo";
+import Logoutbtn from "./Header/Logoutbtn";
 import Input from "./Input";
 import Button from "./Button";
 import Login from "./Login";
@@ -17,15 +17,15 @@ export {
     Header,
     Footer,
     Container,
-    logo,
-    logoutbtn,
-    Input,
+    Logo,
+    Logoutbtn,
     Button,
     Login,
     RTE,
-    Select,
     Signup,
     PostCard,
     PostForm,
-    AuthLayout
+    AuthLayout,
+    Select,
+    Input
 }

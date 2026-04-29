@@ -3,7 +3,7 @@ import {useNavigate} from 'react-router-dom'
 import {useSelector} from 'react-redux'
 import {useForm} from 'react-hook-form'
 import appwriteService from '../../appwrite/config'
-import {Button,Input,RTE,logo} from '../index'
+import {Button,Input,RTE,Logo} from '../index'
 
 function PostForm({post}) {
   const{register, handleSubmit, watch, control, setValue, getValues}= useForm({
@@ -74,7 +74,7 @@ React.useEffect(()=>{
   return (
     <form onSubmit={handleSubmit(submit) } className='flex flex-wrap'>
       <div className='w-2/3 px-2'>
-        <input 
+        <Input 
         label="Title"
         placeholder="Title"
         className='mb-4'

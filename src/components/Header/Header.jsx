@@ -1,5 +1,5 @@
 import React from 'react'
-import{Container,logo, logoutbtn} from '../index'
+import{Container,Logo, Logoutbtn} from '../index'
 import { useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
 import { useNavigate } from 'react-router-dom'
@@ -42,9 +42,9 @@ function Header() {
       <Container>
         <nav className='flex'>
           <div className='mr-4'>
-            <link to='/'>
-            <logo width= '70px'/>
-            </link>
+            <Link to='/'>
+            <Logo width= '70px'/>
+            </Link>
           </div>
           <ul className='flex ml-auto'>
             {navItem.map((item)=>
