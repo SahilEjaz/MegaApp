@@ -1,5 +1,15 @@
+<<<<<<< Updated upstream
 import React from 'react'
 import {Container, Logo, LogoutBtn} from '../index'
+=======
+<<<<<<< HEAD
+import{Container,Logo, Logoutbtn} from '../index'
+import { useSelector } from 'react-redux'
+=======
+import React from 'react'
+import {Container, Logo, LogoutBtn} from '../index'
+>>>>>>> ef05710 (update files)
+>>>>>>> Stashed changes
 import { Link } from 'react-router-dom'
 import {useSelector} from 'react-redux'
 import { useNavigate } from 'react-router-dom'
@@ -48,6 +58,26 @@ function Header() {
               </Link>
           </div>
           <ul className='flex ml-auto'>
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+            {navItem.map((item)=>
+          item.active  ? (
+            <li key={item.name}>
+              <button onClick={()=>navigate(item.slug)} className='inline-block px-6 py-2 duration-200 hover:bg-blue-200 rounded-full'
+             >{item.name}
+             </button>
+            </li>
+          ) : null 
+          )}
+          {authStatus && (
+            <li>
+              < logoutBtn />
+            </li>
+          )}
+
+=======
+>>>>>>> Stashed changes
             {navItems.map((item) => 
             item.active ? (
               <li key={item.name}>
@@ -63,6 +93,10 @@ function Header() {
                 <LogoutBtn />
               </li>
             )}
+<<<<<<< Updated upstream
+=======
+>>>>>>> ef05710 (update files)
+>>>>>>> Stashed changes
           </ul>
         </nav>
         </Container>

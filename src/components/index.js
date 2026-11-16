@@ -3,7 +3,14 @@ import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
 import Container from "./container/Container";
 import Logo from "./Logo";
+<<<<<<< Updated upstream
 import LogoutBtn from "./Header/LogoutBtn";
+=======
+import LogoutBtn from "./Header/Logoutbtn";
+import Input from "./Input";
+import Button from "./Button";
+import Login from "./Login";
+>>>>>>> Stashed changes
 import RTE from "./RTE";
 import Signup from "./Signup";
 import Login from "./Login";
@@ -17,7 +24,18 @@ export {
     Footer,
     Container,
     Logo,
+<<<<<<< Updated upstream
     LogoutBtn,
+=======
+<<<<<<< HEAD
+    Logoutbtn,
+    Input,
+=======
+    LogoutBtn,
+>>>>>>> ef05710 (update files)
+    Button,
+    Login,
+>>>>>>> Stashed changes
     RTE,
     Signup,
     Login,
